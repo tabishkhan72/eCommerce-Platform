@@ -1,0 +1,38 @@
+<% content_for :page_title do %>
+  <%= Spree.t(:stock) %>
+<% end %>
+<% content_for :page_tabs do %>
+  <%= render "spree/admin/shared/stock_nav" %>
+<% end %>
+<% content_for :page_actions do %>
+  <%= if can?(:create, Spree::StockTransfer.new)
+    link_to Spree.t(:new_stock_transfer), spree.new_admin_stock_transfer_path, class: "btn btn-primary"
+  end %>
+<% end %>
+
+<div class="card-lg p-0">
+  <%= render "filters" %>
+  <% if @stock_transfers.any? %>
+    <div class="table-responsive">
+      <table class="table" id="listing_products">
+        <thead class="text-muted">
+          <tr>
+            <th scope="col"><%= Spree.t(:number) %></th>
+            <th scope="col"><%= Spree.t(:reference) %></th>
+            <th scope="col"><%= Spree.t(:source) %></th>
+            <th scope="col"><%= Spree.t(:destination) %></th>
+            <th scope="col"><%= Spree.t(:variants_count) %></th>
+            <th scope="col"><%= Spree.t(:created_at) %></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <%= render partial: 'stock_transfer', collection: @stock_transfers %>
+        </tbody>
+      </table>
+    </div>
+  <% else %>
+    <%= render 'spree/admin/shared/no_resource_found' %>
+  <% end %>
+  <%= render 'spree/admin/shared/index_table_options', collection: @stock_transfers, simple: true if @stock_transfers.any? %>
+</div>
