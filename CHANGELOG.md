@@ -1,6 +1,6 @@
 ## Changelog
 
-### [Unreleased]
+###
 
 - **Initial Project Setup**: Established the foundational structure of the eCommerce platform using Ruby on Rails.
 - **Multi-Functional Support**: Integrated support for multi-vendor, multi-tenant, multi-store, multi-currency, and multi-language functionalities.
