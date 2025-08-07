@@ -6,12 +6,12 @@ The **eCommerce Platform** is a **highly customizable, open-source** solution de
 
 ### **🔹 Key Features**  
 
-✔ **Fully Customizable** – Modify the storefront, checkout, order management, and API.  
-✔ **Multi-Vendor Support** – Enable multiple suppliers with dedicated dashboards.  
-✔ **Advanced Cart & Checkout** – Supports 30+ payment gateways and discount systems.  
-✔ **Multi-Store & Multi-Region** – Handle multiple stores, languages, and currencies.  
-✔ **API-First Architecture** – Seamlessly integrate with third-party services and frontends.  
-✔ **B2B & Wholesale Support** – Configure pricing tiers, bulk orders, and secure transactions.  
+✔ **Fully Customizable** – Modify the storefront, checkout, order management, and API  
+✔ **Multi-Vendor Support** – Enable multiple suppliers with dedicated dashboards  
+✔ **Advanced Cart & Checkout** – Supports 30+ payment gateways and discount systems  
+✔ **Multi-Store & Multi-Region** – Handle multiple stores, languages, and currencies  
+✔ **API-First Architecture** – Seamlessly integrate with third-party services and frontends  
+✔ **B2B & Wholesale Support** – Configure pricing tiers, bulk orders, and secure transactions  
 
 ---
 
